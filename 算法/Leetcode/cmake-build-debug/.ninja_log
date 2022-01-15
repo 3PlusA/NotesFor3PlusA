@@ -1,0 +1,6 @@
+# ninja log v5
+0	346	6639320880703482	CMakeFiles/Leetcode.dir/main.cpp.obj	af20b8f931fffb7e
+350	484	6639320882043913	Leetcode.exe	22326dd47056578a
+3	248	6639337309102222	build.ninja	49a9eb64e03791db
+0	486	6639337314379095	CMakeFiles/Leetcode.dir/1_Greedy_455_Assign_Cookies.cpp.obj	c8815ce73ed7952
+487	638	6639337315874470	Leetcode.exe	39d23ad7d775b270
