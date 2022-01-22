@@ -1,5 +1,7 @@
 # php语言特性bugs
-
+- [php语言特性bugs](#php语言特性bugs)
+  - [1.Exception类](#1exception类)
+    - [1.1 构造函数执行命令](#11-构造函数执行命令)
 ## 1.Exception类
 ### 1.1 构造函数执行命令
 例子：
