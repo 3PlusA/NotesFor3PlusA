@@ -1,7 +1,25 @@
 # PHP特性(网友根据ctfshow整理)
 
-
-[toc]
+- [PHP特性(网友根据ctfshow整理)](#php特性网友根据ctfshow整理)
+- [一、intval()函数](#一intval函数)
+- [二、多行匹配](#二多行匹配)
+- [3.== 弱类型与路径问题](#3-弱类型与路径问题)
+  - [highlight\_file 显示伪协议](#highlight_file-显示伪协议)
+- [4.md5（）](#4md5)
+- [5.三目运算符的理解+变量覆盖](#5三目运算符的理解变量覆盖)
+- [6\. in\_array()函数](#6-in_array函数)
+- [7.is\_numeric()函数](#7is_numeric函数)
+  - [优先级](#优先级)
+- [8.and与&&的区别+反射类ReflectionClass的使用](#8and与的区别反射类reflectionclass的使用)
+- [9.call\_user\_func（）](#9call_user_func)
+  - [is\_numeric（）](#is_numeric)
+- [10.sha1（）](#10sha1)
+- [11变量覆盖](#11变量覆盖)
+  - [die(\$error)](#dieerror)
+  - [Foreach（）](#foreach)
+- [12.parse\_str函数（）](#12parse_str函数)
+- [13.ereg()函数%00截断](#13ereg函数00截断)
+- [15.FilesystemIterator类](#15filesystemiterator类)
 
 
 # 一、intval()函数

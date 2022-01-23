@@ -9,5 +9,7 @@
 - [ ] 计算机组成原理
 - [ ] 汇编语言
 - [ ] javascript
+- [ ] [JAVA基础(working)](./JAVA语言基础/index.md)
+- [ ] [springboot](./springboot/note.md)
 - [ ] [算法学习与刷题](./算法)
 - [ ] [CTF-PHP语言特性(working)](网络安全/web/../CTF/web/PHP特性.md)
