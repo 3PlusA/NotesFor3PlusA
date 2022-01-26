@@ -10,6 +10,6 @@
 - [ ] 汇编语言
 - [ ] javascript
 - [ ] [JAVA基础](./JAVA语言基础/mybatis)
-- [ ] [mybatis(working)](./springboot)
+- [ ] [mybatis(working)](./JAVA相关/mybatis/)
 - [ ] [算法学习与刷题](./算法)
 - [ ] [CTF-PHP语言特性(working)](网络安全/web/../CTF/web/PHP特性.md)
