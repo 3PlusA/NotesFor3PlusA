@@ -21,8 +21,13 @@
 ### 计算机相关知识
 #### JAVA技术栈
 ##### JAVA基础语法
+##### 企业开发基础
+###### mybatis(working)
+###### mysql(working)
 
 #### 网络安全
+##### web
+###### PHP语言特性(working)
 
 ## 生活知识
 
