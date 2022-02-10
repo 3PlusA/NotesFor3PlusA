@@ -213,3 +213,14 @@ Fork 本仓库
 新建 Feat_xxx 分支
 提交代码
 新建 Pull Request
+
+## usage
+### redis
+.\redis-server.exe  redis.windows.conf
+### mysql
+net start mysql57
+net stop mysql57
+
+### 前端
+npm install  
+npm run serve

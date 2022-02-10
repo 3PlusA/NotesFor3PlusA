@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--2新增-->
+<!--        namespace写接口全类名-->
+<mapper namespace="com.amateur.repository.ClassesRepository">
+    <!--数据库里取数据 给数据 与下面sql语句对应-->
+    <resultMap id="classesMap" type="com.amateur.entity.Classes">
+        <id column="cid" property="id"/>
+        <result column="cname" property="name"/>
+        <collection property="students" ofType="com.amateur.entity.Student">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+        </collection>
+    </resultMap>
+
+
+    <!--    标签id和接口方法名一致-->
+    <select id="findById" parameterType="long" resultMap="classesMap">
+        select s.id,s.name,c.id as cid,c.name as cname from student s,classes c where c.id=#{id} and c.id=s.cid
+    </select>
+
+</mapper>
