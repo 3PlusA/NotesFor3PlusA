@@ -10,4 +10,10 @@ public class Student {
     private String name;
     private Integer age;
 
+
+    public Student(){
+        System.out.println("这是无参构造函数");
+    }
 }
+
+

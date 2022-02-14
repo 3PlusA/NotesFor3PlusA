@@ -10,6 +10,7 @@ public class Test {
 
         //IOC容器自动创建对象
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
-        applicationContext.getId();
+        Student student1 = (Student)applicationContext.getBean("student");
+        System.out.println(student1);
     }
 }
